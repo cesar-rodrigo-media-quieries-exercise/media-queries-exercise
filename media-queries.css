@@ -1,5 +1,5 @@
 body {
-    display: inline-block;
+
 
 }
 
@@ -41,11 +41,16 @@ nav ul li {
     h1{
         display: inline-block;
     }
-   ul {
-       display: flex;
-        justify-content: flex-end;
-       align-items: start;
+    nav {
+        display: inline-block;
+       position: absolute;
+        top: 0;
+        right: 0;
 
+    }
+   ul {
+        display: flex;
+        justify-content: flex-end;
 
     }
     nav ul li {
