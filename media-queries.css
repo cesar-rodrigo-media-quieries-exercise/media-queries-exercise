@@ -20,6 +20,10 @@ nav ul {
     padding: 10px;
 }
 
+.header-img img{
+    max-width: 100%;
+}
+
 nav ul li {
     border: 1px solid black;
     background-color: rgb(204, 204, 204);
@@ -27,12 +31,29 @@ nav ul li {
     margin: 5px;
 }
 
-.nav-links a {
-
-}
 .main {
     display: inline;
 }
-@media screen and (max-width: 576px){
+@media screen and (min-width: 354px){
+    .hidden-on-desktop{
+        display: none;
+    }
+    h1{
+        display: inline-block;
+    }
+   ul {
+       display: flex;
+        justify-content: flex-end;
+       align-items: start;
 
+
+    }
+    nav ul li {
+        border: none;
+        background-color: unset;
+
+    }
+    .sub-section {
+
+    }
 }
